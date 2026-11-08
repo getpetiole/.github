@@ -1,0 +1,27 @@
+name: A bug
+description: Something does not work as it should.
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: input
+    id: request-id
+    attributes:
+      label: The request's id
+      description: The `request-id` the API answered with, if it did. Never paste an API key.
+      placeholder: req_01JQ8ZC5T4V7B9K2MNPQRSTWXZ
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: How to see it
+      description: The smallest steps, code or photo that show it.
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: The repository's version or commit, and your platform (browser, Python, OS).

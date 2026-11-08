@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Access, limits and credit
+    url: https://petiole.pro/company/contact/
+    about: Ask Petiole for access to the platform, or about your limits.
+  - name: A security vulnerability
+    url: https://github.com/getpetiole/.github/blob/main/SECURITY.md
+    about: Report it privately, never in an issue.
